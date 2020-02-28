@@ -1,0 +1,35 @@
+.nav{
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    width: 361px ;
+    height: 35px;
+}
+.nav > li {
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: aqua;
+    border-radius: 50px 0 50px 0;
+    transition: transform 0.2s, box-shadow 0.2s ;
+    
+}
+.nav > li:hover {
+transform: rotatey(360deg) scale(1.5);
+box-shadow: 5px 2px 5px 5px rgba(0, 0, 0, 0.582);
+}
+.nav > li > a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 5px ;
+}
+.hidden{
+   width: 0;
+   height: 0; 
+   overflow: hidden;
+}
+.content{
+    background-color: lightgoldenrodyellow;
+}
